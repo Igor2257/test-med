@@ -7,6 +7,11 @@ class ScanDoc extends  StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Dialog(child: Row(children: [LeftSide(),SizedBox(width: 64,),RightSide()],),);
+    return ClipRect(
+      child: Dialog(child: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Row(children: [LeftSide(),SizedBox(width: 64,),RightSide()],),
+      ),),
+    );
   }
 }

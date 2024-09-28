@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:untitled1/app_colors.dart';
 
 enum ConfirmOrCancel { confirm, cancel }
 
@@ -31,9 +32,9 @@ class AppButton extends StatelessWidget {
               style: ElevatedButton.styleFrom(
                 backgroundColor: confirmOrCancel != null
                     ? confirmOrCancel == ConfirmOrCancel.confirm
-                    ? const Color(0xFF42C0E2)
+                    ? AppColors.blueE2
                     : Colors.red
-                    : backgroundColor ?? const Color(0xFF42C0E2),
+                    : backgroundColor ?? AppColors.blueE2,
               ),
               child: Text(inscription),
             ),

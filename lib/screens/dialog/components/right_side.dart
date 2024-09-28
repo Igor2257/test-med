@@ -9,7 +9,8 @@ class RightSide extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Expanded(
-      child: Container(color: Colors.grey.shade300,
+      child: Container(padding: EdgeInsets.all(16),
+        decoration: BoxDecoration(color:  Colors.grey.shade300,borderRadius: BorderRadius.circular(8)),
         child: Column( crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const PresetWidget(),
