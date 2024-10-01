@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:untitled1/bloc/main_bloc/main_bloc.dart';
-import 'package:untitled1/screens/dialog/components/parameters.dart';
+import 'package:untitled1/ui/screens/dialog/components/parameters.dart';
 
 class Parameter extends StatelessWidget {
   const Parameter(
@@ -12,12 +12,14 @@ class Parameter extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
+    return Row(
+      crossAxisAlignment: CrossAxisAlignment.center,
       children: [
         Text(parametersEnum.name),
-        Padding(
-          padding: EdgeInsets.only(left: 16),
+        const SizedBox(
+          width: 16,
+        ),
+        Expanded(
           child: Slider(
               value: value,
               max: 255,

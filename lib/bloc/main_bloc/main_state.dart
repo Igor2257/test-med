@@ -10,7 +10,7 @@ class MainState {
   final XFile? savedImage;
 
   MainState({
-    this.presets = Presets.preset1,
+    this.presets = Presets.a4,
     this.parameterValue1 = 0,
     this.parameterValue2 = 0,
     this.parameterValue3 = 0,

@@ -21,3 +21,7 @@ class SaveImage extends MainEvent{
 
   SaveImage({required this.file});
 }
+
+class CreatePdf extends MainEvent{
+
+}

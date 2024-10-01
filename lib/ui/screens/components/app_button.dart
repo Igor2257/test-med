@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:untitled1/app_colors.dart';
+import 'package:untitled1/utils/styles/colors/app_colors.dart';
 
 enum ConfirmOrCancel { confirm, cancel }
 
@@ -36,7 +36,7 @@ class AppButton extends StatelessWidget {
                     : Colors.red
                     : backgroundColor ?? AppColors.blueE2,
               ),
-              child: Text(inscription),
+              child: Text(inscription,),
             ),
           ),
         ],

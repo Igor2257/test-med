@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:untitled1/bloc/main_bloc/main_bloc.dart';
-import 'package:untitled1/screens/dialog/components/parameter.dart';
-
+import 'package:untitled1/ui/screens/dialog/components/parameter.dart';
 enum ParametersEnum {
   parameters1,
   parameters2,
