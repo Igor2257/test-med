@@ -7,101 +7,101 @@ abstract class AppTextTheme {
 
   static TextTheme get darkTheme => _darkTheme();
 
-  static TextTheme _lightTheme() => const TextTheme(
+  static TextTheme _lightTheme() =>  TextTheme(
         bodyLarge: TextStyle(
-          color: AppColors.black,
+          color: AppColors.dark,
           fontFamily: FontFamily.montserratBold_700,
         ),
         bodyMedium: TextStyle(
-          color: AppColors.black,
+          color: AppColors.dark,
           fontFamily: FontFamily.montserratMedium_500,
         ),
         bodySmall: TextStyle(
-          color: AppColors.black,
+          color: AppColors.dark,
           fontFamily: FontFamily.montserratMedium_500,
         ),
         titleSmall: TextStyle(
-          color: AppColors.black,
+          color: AppColors.dark,
           fontFamily: FontFamily.montserratBold_700,
         ),
         titleLarge: TextStyle(
-          color: AppColors.black,
+          color: AppColors.dark,
           fontFamily: FontFamily.montserratBold_700,
         ),
         // Text field body
         titleMedium: TextStyle(
-          color: AppColors.black,
+          color: AppColors.dark,
           fontFamily: FontFamily.montserratMedium_500,
         ),
         // Text field label, Password validation item text
         displaySmall: TextStyle(
-          color: AppColors.black,
+          color: AppColors.dark,
           fontFamily: FontFamily.montserratMedium_500,
         ),
         displayMedium: TextStyle(
-          color: AppColors.black,
+          color: AppColors.dark,
           fontFamily: FontFamily.montserratMedium_500,
         ),
         // Drawer
         displayLarge: TextStyle(
-          color: AppColors.white,
+          color: AppColors.background,
           fontFamily: FontFamily.montserratMedium_500,
         ),
         headlineSmall: TextStyle(
-          color: AppColors.black,
+          color: AppColors.dark,
           fontFamily: FontFamily.montserratMedium_500,
         ),
         headlineLarge: TextStyle(
-          color: AppColors.black,
+          color: AppColors.dark,
           fontFamily: FontFamily.montserratMedium_500,
         ),
       );
 
-  static TextTheme _darkTheme() => const TextTheme(
+  static TextTheme _darkTheme() => TextTheme(
         bodyLarge: TextStyle(
-          color: AppColors.black,
+          color: AppColors.dark,
           fontFamily: FontFamily.montserratBold_700,
         ),
         bodyMedium: TextStyle(
-          color: AppColors.black,
+          color: AppColors.dark,
           fontFamily: FontFamily.montserratMedium_500,
         ),
-        bodySmall: TextStyle(
-          color: AppColors.white,
+        bodySmall:  TextStyle(
+          color: AppColors.background,
           fontFamily: FontFamily.montserratMedium_500,
         ),
-        titleSmall: TextStyle(
-          color: AppColors.black,
+        titleSmall:  TextStyle(
+          color: AppColors.dark,
           fontFamily: FontFamily.montserratBold_700,
         ),
-        titleLarge: TextStyle(
-          color: AppColors.white,
+        titleLarge:  TextStyle(
+          color: AppColors.background,
           fontFamily: FontFamily.montserratBold_700,
         ),
         // Text field body
-        titleMedium: TextStyle(
-          color: AppColors.black,
+        titleMedium:  TextStyle(
+          color: AppColors.dark,
           fontFamily: FontFamily.montserratMedium_500,
         ),
         // Text field label, Password validation item text
-        displaySmall: TextStyle(
-          color: AppColors.black,
+        displaySmall:  TextStyle(
+          color: AppColors.dark,
           fontFamily: FontFamily.montserratMedium_500,
         ),
-        displayMedium: TextStyle(
-          color: AppColors.black,
+        displayMedium:  TextStyle(
+          color: AppColors.dark,
           fontFamily: FontFamily.montserratMedium_500,
         ),
-        displayLarge: TextStyle(
-          color: AppColors.black,
+        displayLarge:  TextStyle(
+          color: AppColors.dark,
           fontFamily: FontFamily.montserratMedium_500,
         ),
-        headlineSmall: TextStyle(
-          color: AppColors.black,
+        headlineSmall:  TextStyle(
+          color: AppColors.dark,
           fontFamily: FontFamily.montserratMedium_500,
         ),
-        headlineLarge: TextStyle(
-          color: AppColors.white,
+        headlineLarge:  TextStyle(
+          color: AppColors.background,
           fontFamily: FontFamily.montserratMedium_500,
         ),
       );

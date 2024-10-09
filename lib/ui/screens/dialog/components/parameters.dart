@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:untitled1/bloc/main_bloc/main_bloc.dart';
+import 'package:untitled1/bloc/scan_document_bloc/scan_document_bloc.dart';
 import 'package:untitled1/ui/screens/dialog/components/parameter.dart';
 enum ParametersEnum {
   parameters1,
@@ -16,7 +17,7 @@ class Parameters extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column( crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        BlocSelector<MainBloc, MainState, double>(
+        BlocSelector<ScanDocumentBloc, ScanDocumentState, double>(
           selector: (state) {
             return state.parameterValue1;
           },
@@ -27,7 +28,7 @@ class Parameters extends StatelessWidget {
             );
           },
         ),
-        BlocSelector<MainBloc, MainState, double>(
+        BlocSelector<ScanDocumentBloc, ScanDocumentState, double>(
           selector: (state) {
             return state.parameterValue2;
           },
@@ -38,7 +39,7 @@ class Parameters extends StatelessWidget {
             );
           },
         ),
-        BlocSelector<MainBloc, MainState, double>(
+        BlocSelector<ScanDocumentBloc, ScanDocumentState, double>(
           selector: (state) {
             return state.parameterValue3;
           },
@@ -49,7 +50,7 @@ class Parameters extends StatelessWidget {
             );
           },
         ),
-        BlocSelector<MainBloc, MainState, double>(
+        BlocSelector<ScanDocumentBloc, ScanDocumentState, double>(
           selector: (state) {
             return state.parameterValue4;
           },

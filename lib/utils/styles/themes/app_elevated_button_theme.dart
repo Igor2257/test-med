@@ -10,9 +10,9 @@ abstract class AppElevatedButtonTheme {
 
   static ElevatedButtonThemeData _lightTheme() => ElevatedButtonThemeData(
         style: ElevatedButton.styleFrom(
-          disabledBackgroundColor: AppColors.whiteD4,
-          disabledForegroundColor: AppColors.grey98,
-          foregroundColor: AppColors.white,
+          disabledBackgroundColor: AppColors.background,
+          disabledForegroundColor: AppColors.dark,
+          foregroundColor: AppColors.background,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(16),
           ),
@@ -28,9 +28,9 @@ abstract class AppElevatedButtonTheme {
   static ElevatedButtonThemeData _darkTheme() =>
       ElevatedButtonThemeData(
         style: ElevatedButton.styleFrom(
-          disabledBackgroundColor: AppColors.blue50,
-          disabledForegroundColor: AppColors.blueB4,
-          foregroundColor: AppColors.white,
+          disabledBackgroundColor: AppColors.dark,
+          disabledForegroundColor: AppColors.dark,
+          foregroundColor: AppColors.background,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(16),
           ),

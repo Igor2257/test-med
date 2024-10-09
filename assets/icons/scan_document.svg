@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 633.33 634.17">
+  <g id="b">
+    <line id="c" x1="390.53" y1="132.28" x2="425.67" y2="132.28" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round; stroke-width: 16.67px;"/>
+    <line id="d" x1="390.53" y1="167.42" x2="413.37" y2="167.42" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round; stroke-width: 16.67px;"/>
+    <line id="e" x1="390.53" y1="132.28" x2="390.53" y2="202.57" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round; stroke-width: 16.67px;"/>
+  </g>
+  <path id="f" d="m309.75,202.57v-70.29h11.42c19.33,0,35.14,15.82,35.14,35.14h0c0,19.33-15.82,35.14-35.14,35.14h-11.42Z" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round; stroke-width: 16.67px;"/>
+  <g id="g">
+    <path id="h" d="m231.74,198.69v-70.29h22.85c13.18,0,23.72,10.54,23.72,23.72s-10.54,23.72-23.72,23.72h-22.85" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round; stroke-width: 16.67px;"/>
+  </g>
+  <path id="i" d="m194.38,511.62h127.51" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round; stroke-width: 16.67px;"/>
+  <path id="j" d="m194.87,461.95h228.69" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round; stroke-width: 16.67px;"/>
+  <path id="k" d="m194.87,409.69h269.24" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round; stroke-width: 16.67px;"/>
+  <rect id="l" x="131.29" y="71.88" width="389.56" height="500.86" rx="33.42" ry="33.42" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round; stroke-width: 16.67px;"/>
+  <path id="m" d="m137.52,8.33H33.84v106.19" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round; stroke-width: 16.67px;"/>
+  <path id="n" d="m495.4,8.33h105.36v106.19" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round; stroke-width: 16.67px;"/>
+  <path id="o" d="m600.75,520.9v104.94h-105.36" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round; stroke-width: 16.67px;"/>
+  <path id="p" d="m137.52,625.84H33.84v-104.94" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round; stroke-width: 16.67px;"/>
+  <path id="q" d="m8.33,318.55h616.67" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round; stroke-width: 16.67px;"/>
+  <path id="r" d="m194.38,262.53h269.24" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round; stroke-width: 16.67px;"/>
+  <path id="s" d="m194.87,349.07h269.24" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round; stroke-width: 16.67px;"/>
+</svg>

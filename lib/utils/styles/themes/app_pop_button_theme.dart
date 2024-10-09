@@ -6,11 +6,11 @@ abstract class AppPopButtonTheme {
 
   static PopupMenuThemeData get darkTheme => _darkTheme();
 
-  static PopupMenuThemeData _lightTheme() => const PopupMenuThemeData(
-        color: AppColors.whiteF7,
+  static PopupMenuThemeData _lightTheme() => PopupMenuThemeData(
+        color: AppColors.background,
         surfaceTintColor: Colors.transparent,
       );
 
   static PopupMenuThemeData _darkTheme() =>
-      lightTheme.copyWith(color: AppColors.blue39);
+      lightTheme.copyWith(color: AppColors.dark);
 }

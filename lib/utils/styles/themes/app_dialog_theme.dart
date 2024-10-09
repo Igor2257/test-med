@@ -6,11 +6,11 @@ abstract class AppDialogTheme {
 
   static DialogTheme get darkTheme => _darkTheme();
 
-  static DialogTheme _lightTheme() => const DialogTheme(
-        backgroundColor: AppColors.whiteF7,
+  static DialogTheme _lightTheme() => DialogTheme(
+        backgroundColor: AppColors.background,
       );
 
   static DialogTheme _darkTheme() => _lightTheme().copyWith(
-        backgroundColor: AppColors.blue39,
+        backgroundColor: AppColors.dark,
       );
 }

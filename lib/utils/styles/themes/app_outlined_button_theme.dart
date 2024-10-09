@@ -10,12 +10,12 @@ abstract class AppOutlinedButtonTheme {
 
   static OutlinedButtonThemeData _lightTheme() => OutlinedButtonThemeData(
         style: OutlinedButton.styleFrom(
-          backgroundColor: AppColors.whiteF7,
-          foregroundColor: AppColors.black,
+          backgroundColor: AppColors.background,
+          foregroundColor: AppColors.dark,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(16),
           ),
-          side: const BorderSide(color:AppColors.blueF4,),
+          side: BorderSide(color:AppColors.primary,),
           textStyle: const TextStyle(
             fontSize: 14,
             fontFamily: FontFamily.montserratBold_700,
@@ -27,12 +27,12 @@ abstract class AppOutlinedButtonTheme {
 
   static OutlinedButtonThemeData _darkTheme() => OutlinedButtonThemeData(
         style: OutlinedButton.styleFrom(
-          backgroundColor: AppColors.blue56,
-          foregroundColor: AppColors.white,
+          backgroundColor: AppColors.dark,
+          foregroundColor: AppColors.background,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(16),
           ),
-          side: const BorderSide(color: AppColors.blue8C),
+          side: BorderSide(color: AppColors.primary),
           textStyle: const TextStyle(
             fontSize: 14,
             fontFamily: FontFamily.montserratBold_700,

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:untitled1/bloc/main_bloc/main_bloc.dart';
+import 'package:untitled1/bloc/navigation_bloc/navigation_bloc.dart';
 import 'package:untitled1/bloc/scan_document_bloc/scan_document_bloc.dart';
 import 'package:untitled1/ui/screens/main/home_page.dart';
 import 'package:untitled1/utils/styles/themes/app_theme_data.dart';
@@ -22,6 +23,9 @@ class MyApp extends StatelessWidget {
         ),
         BlocProvider(
           create: (context) => ScanDocumentBloc(),
+        ),
+        BlocProvider(
+          create: (context) => NavigationBloc(),
         ),
       ],
       child: MaterialApp(

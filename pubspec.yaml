@@ -40,6 +40,7 @@ dependencies:
   path_provider: ^2.0.11
   path: ^1.8.3
   pdf_compressor: ^0.2.0
+  flutter_svg: ^2.0.10+1
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -72,6 +73,7 @@ flutter:
   assets:
     - assets/
     - assets/fonts/
+    - assets/icons/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

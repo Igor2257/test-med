@@ -7,7 +7,7 @@ abstract class AppProgressIndicatorTheme {
   static ProgressIndicatorThemeData get darkTheme => _darkTheme();
 
   static ProgressIndicatorThemeData _lightTheme() =>
-      const ProgressIndicatorThemeData(color: AppColors.blueF4);
+      ProgressIndicatorThemeData(color: AppColors.secondary);
 
   static ProgressIndicatorThemeData _darkTheme() => _lightTheme().copyWith();
 }

@@ -32,9 +32,9 @@ class AppButton extends StatelessWidget {
               style: ElevatedButton.styleFrom(
                 backgroundColor: confirmOrCancel != null
                     ? confirmOrCancel == ConfirmOrCancel.confirm
-                    ? AppColors.blueE2
-                    : Colors.red
-                    : backgroundColor ?? AppColors.blueE2,
+                    ? AppColors.dark
+                    : AppColors.accent1
+                    : backgroundColor ?? AppColors.dark,
               ),
               child: Text(inscription,),
             ),

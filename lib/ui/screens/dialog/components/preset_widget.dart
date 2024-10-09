@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:untitled1/bloc/main_bloc/main_bloc.dart';
+import 'package:untitled1/bloc/scan_document_bloc/scan_document_bloc.dart';
 
 enum Presets {
   a3,
@@ -18,7 +19,7 @@ class PresetWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return BlocSelector<MainBloc, MainState, Presets>(
+    return BlocSelector<ScanDocumentBloc, ScanDocumentState, Presets>(
       selector: (state) {
         return state.presets;
       },
@@ -37,7 +38,7 @@ class PresetWidget extends StatelessWidget {
                     .toList(),
                 onChanged: (e) {
                   if (e != null) {
-                    BlocProvider.of<MainBloc>(context)
+                    BlocProvider.of<ScanDocumentBloc>(context)
                         .add(ChangePreset(presets: e));
                   }
                 }),

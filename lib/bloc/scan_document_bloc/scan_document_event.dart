@@ -27,3 +27,22 @@ class UpdatePosition extends ScanDocumentEvent {
 
   UpdatePosition({required this.delta});
 }
+
+class CreatePdf extends ScanDocumentEvent {}
+
+class ChangePreset extends ScanDocumentEvent {
+  final Presets presets;
+
+  ChangePreset({required this.presets});
+}
+
+class ChangeParameterValue extends ScanDocumentEvent {
+  final ParametersEnum parametersEnum;
+  final double value;
+
+  ChangeParameterValue({required this.parametersEnum, required this.value});
+}
+
+class PreviewPdfEvent extends ScanDocumentEvent {
+  PreviewPdfEvent();
+}
